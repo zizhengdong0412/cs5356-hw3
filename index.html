@@ -1,70 +1,89 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>NYC Transportation</title>
-    <link rel="stylesheet" href="style.css"> 
-  </head>
-  <body>
-    <header>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NYC Transportation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
     <h1>
-        Good Morning!
-        I'm Daniel. I'm a student from Cornell University NYC campus. 
-        Since that I'm living in New Jersey, therefore, 
-        I'm going to show you how I get to school every day with rating from my view!
+      Good Morning! I'm Daniel, a student from the Cornell University NYC campus.
+      I live in New Jersey, so I'm showing how I commute to school daily, 
+      along with a brief rating from my perspective!
     </h1>
     <img src="images/play_guitar.jpg" alt="My Photo" width="300" />
 
     <nav>
-        <ul>
-          <li><a href="#Path">Overview</a></li>
-          <li><a href="#subway">Subway</a></li>
-          <li><a href="#buses">Buses</a></li>
-        </ul>
-        </nav>
-</header>
+      <ul>
+        <li><a href="#Path">Overview</a></li>
+        <li><a href="#subway">Subway</a></li>
+        <li><a href="#buses">Buses</a></li>
+        <li><a href="#video-demo">Video Demo</a></li> 
+      </ul>
+    </nav>
+  </header>
 
-
-<main>
+  <main>
     <section id="Path">
-    <h2> First Approach: Traveling with Path to get to City</h2>
-    <img src="images/path.jpg" alt="My Photo" width="300" />
-    <article>
-        <p>
-          Overall rate: 3/5
-          Pro and Cons from me: 
-            P:Cheap and give me more options while I was trying to rent an apartment
-            C: SLOW! SLOW! SLOW! Took me almost one hour normally to get to my school
-          reddit:We all know that PATH offers a cheap connection between New York and New Jersey, but I hate the fact that it's nowhere near as massive as the NYC Subway System. 
-        </p>
-      </article>
-    <section id="subway">
-    <h3> Second Approach: NYC Subway </h3>
-    <img src="images/subway.jpg" alt="My Photo" width="300" />
-    <article>
-        <p>
-          Overall rate: 3.5/5
-          Pro and Cons from me: 
-            P: Faster, Faster, Faster! So many good things happening on the Mahattan Island.
-            C: Always Maintenance for no reasons. Last time saw a guy poop in front of me
-          reddit:Its fine overall. You may see some disgusting things now and then. Just keep your wits about you. Dont look like a distracted person staring at your phone the whole time. 
-
-        </p>
-      </article>
-      <h4> Third Approach: Bus </h4>
-      <img src="images/bus.jpg" alt="My Photo" width="300" />
+      <h2>First Approach: Traveling by PATH</h2>
+      <img src="images/path.jpg" alt="My Photo"/>
       <article>
-          <p>
-            Overall rate: 4.5/5
-            Pro and Cons from me: 
-              P: Cozy! None like path and subway sites.
-              C: Trafic on the bright. Since there's a over-the-bright fee just get involved, Things get easier.
-            reddit:I like the bus better than the train for sure. They have outlets to charge your phone, air conditioned and you can look out the window. I personally find it calming.
-          </p>
-        </article>
-</main>
-<footer>
-    <p>2025 NYC Transportation Guide — From a real-talk student.</p>
+        <p>
+          Overall rate: 3/5.  
+          <strong>Pros:</strong> Cheap and give me more options while I was trying to rent an apartment  
+          <strong>Cons:</strong> Slow! Takes about an hour to reach campus.  
+          <em>Reddit says:</em> “We all know that PATH offers a cheap connection between New York and New Jersey, but I hate the fact that it's nowhere near as massive as the NYC Subway System.”
+        </p>
+      </article>
+    </section>
+
+    <!-- SECTION: Subway -->
+    <section id="subway">
+      <h3>Second Approach: NYC Subway</h3>
+      <img src="images/subway.jpg" alt="My Photo"/>
+      <article>
+        <p>
+          Overall rate: 3.5/5.  
+          <strong>Pros:</strong> Faster, Faster, Faster! So many good things happening on the Mahattan Island. 
+          <strong>Cons:</strong> Always Maintenance for no reasons. Last time saw a guy poop in front of me 
+          <em>Reddit says:</em> “Its fine overall. You may see some disgusting things now and then. Just keep your wits about you. Dont look like a distracted person staring at your phone the whole time. 
+          .”
+        </p>
+      </article>
+    </section>
+
+    <!-- SECTION: Buses -->
+    <section id="buses">
+      <h4>Third Approach: Bus</h4>
+      <img src="images/bus.jpg" alt="My Photo"/>
+      <article>
+        <p>
+          Overall rate: 4.5/5.  
+          <strong>Pros:</strong> Cozy! None like path and subway sites.  
+          <strong>Cons:</strong> Trafic on the bright. Since there's a over-the-bright fee just get involved, Things get easier.
+          <em>Reddit says:</em> “I like the bus better than the train for sure. They have outlets to charge your phone, air conditioned and you can look out the window. I personally find it calming.”
+        </p>
+      </article>
+    </section>
+
+    <section id="video-demo">
+      <h2>Video Demo</h2>
+      <video class="commute-video" width="400" controls>
+        <source src="videos/sample-commute.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p>
+        <strong>What I learned about Vedio:</strong> 
+        The video element lets me play a playable video with built-in controls. I can set attributes like <code>controls</code>, 
+        <code>autoplay</code>, <code>loop</code>, etc. 
+        If the browser doesn’t support the video, the fallback text is shown.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>2025 NYC Transportation Guide — Real-Talk Student Edition.</p>
   </footer>
 </body>
 </html>
