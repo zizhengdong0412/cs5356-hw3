@@ -21,16 +21,7 @@ header {
 header h1 {
   margin-bottom: 0.5rem;
 }
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-}
-nav a {
-  color: darkolivegreen;
-  text-decoration: none;
-  font-weight: bold;
-}
+
 
 main section {
   margin-bottom: 2rem;
