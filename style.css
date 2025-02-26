@@ -7,7 +7,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1;
   color: #333;
-  background-color: #fff;
+  background-color: #9FE2BF;
   margin: 0 auto;
   max-width: 1200px;
   padding: 1rem;
@@ -21,16 +21,7 @@ header {
 header h1 {
   margin-bottom: 0.5rem;
 }
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-}
-nav a {
-  color: darkolivegreen;
-  text-decoration: none;
-  font-weight: bold;
-}
+
 
 main section {
   margin-bottom: 2rem;
