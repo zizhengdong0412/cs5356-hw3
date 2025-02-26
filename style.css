@@ -5,7 +5,7 @@
 }
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.6;
+  line-height: 1;
   color: #333;
   background-color: #fff;
   margin: 0 auto;
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background-color: Bisque;
+  background-color: orange;
   padding: 1rem;
   margin-bottom: 1rem;
 }
