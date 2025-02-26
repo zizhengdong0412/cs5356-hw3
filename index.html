@@ -4,16 +4,22 @@
   <meta charset="UTF-8" />
   <title>NYC Transportation</title>
   <link rel="stylesheet" href="style.css">
+  <script defer src="dog.js"></script>
 </head>
 <body>
   <header>
     <h1>
         Good Morning! New York!
+    </h1>
+    <p>
         I'm Daniel. I'm a student from Cornell University NYC campus. 
         Since that I'm living in New Jersey, therefore, 
         I'm going to show you how I get to school every day with rating from my view!
-    </h1>
-    <img src="images/play_guitar.jpg" alt="My Photo" width="300" />
+    </p>
+
+    <div class="rotating-3d">
+      <img src="images/play_guitar.jpg" alt="Guitar Player" width="300"/>
+    </div>
 
     <p>Click Here PLZ</p>
     <nav>
@@ -22,21 +28,20 @@
           <li><a href="#subway">Subway</a></li>
           <li><a href="#buses">Buses</a></li>
           <li><a href="#video-demo">Video Demo</a></li>
+          <li><a href="#rotate-3d">Video Demo</a></li>
           <li><a href="#random-dog">Random Dog</a></li>
         </ul>
-        </nav>
+    </nav>
 </header>
-<div class="grid-container">
-  <section id="Path">...</section>
-  <section id="subway">...</section>
-  <section id="buses">...</section>
 
-  <main>
-    <div class="grid-container">
+
+<div class="grid-container">
     <section id="Path">
-    <h2> First Approach: Traveling with Path to get to City</h2>
-    <img src="images/path.jpg" alt="My Photo" width="300" />
-    <article>
+      <h2> First Approach: Traveling with Path to get to City</h2>
+      <div class="rotating-3d">
+      <img src="images/path.jpg" alt="My Photo" width="300" />
+      </div>
+      <article>
         <p>
           Overall rate: 3/5.  
           <strong>Pros:</strong> Cheap and give me more options while I was trying to rent an apartment  
@@ -44,9 +49,13 @@
           <em>Reddit says:</em> “We all know that PATH offers a cheap connection between New York and New Jersey, but I hate the fact that it's nowhere near as massive as the NYC Subway System.”
         </p>
       </article>
+    </section>
+
     <section id="subway">
-      <h3>Second Approach: NYC Subway</h3>
+      <h2>Second Approach: NYC Subway</h2>
+      <div class="rotating-3d">
       <img src="images/subway.jpg" alt="My Photo" width="300"/>
+      </div>
       <article>
         <p>
           Overall rate: 3.5/5.  
@@ -56,8 +65,13 @@
           .”
         </p>
       </article>
-      <h4> Third Approach: Bus </h4>
+    </section>
+
+    <section id="buses">
+      <h2> Third Approach: Bus </h2>
+      <div class="rotating-3d">
       <img src="images/bus.jpg" alt="My Photo" width="300" />
+      </div>
       <article>
         <p>
           Overall rate: 4.5/5.  
@@ -67,7 +81,7 @@
         </p>
       </article>
     </section>
-  </div>
+
     <section id="video-demo">
       <h2>War between ME and my CAT</h2>
       <iframe 
@@ -76,29 +90,27 @@
         height="360"
         allow="autoplay">
       </iframe>
-
       <p>
         <strong>What I learned about Vedio:</strong> 
         The video element lets me play a playable video with built-in controls. I can set attributes like control, loop, autoplay. 
         If the browser doesn’t support the video, the fallback text is shown.
       </p>
-    </section>
+      </section>
 
-
-    <section>
+    <section id="rotate-3d">
       <p>
         I used transform: rotateY(180deg) along with a perspective property to create a 3D rotation effect.
-        I found that perspective determines how extreme the 3D effect looks.
+        "GO TO ANY PICTURE!! IT WILL BE DIFFERENT".
         I believe this property wasn’t discussed in detail before, but it’s really powerful for interactive transformations.
       </p>
     </section>
 
     <section id="random-dog">
       <h1>Dog Park</h1>
-    <img id="dog-image" src="" alt="Dog Image"  />
-    <button id="fetch-dog">Get New Dog</button>
+      <img id="dog-image" src="" alt="Dog Image"/>
+      <button id="fetch-dog">Get New Dog</button>
     </section>
-</main>
+</div>
 
 <footer>
   <p>2025 NYC Transportation Guide — Real-Talk Student Edition.</p>
