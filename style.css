@@ -46,7 +46,7 @@ main section {
 
 /* 3D transform usage */
 .rotating-3d {
-  transition: transform 0.6s ease;
+  transition: transform 2s ease;
   perspective: 1000px;
 }
 .rotating-3d:hover {
